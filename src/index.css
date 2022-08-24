@@ -17,9 +17,18 @@ code {
   flex-direction: row;
 }
 
+.opener{
+  height: 100vh;
+}
+
 .stuff {
   display: flex;
  text-align: center;
+}
+
+.block {
+  width: 250px;
+  height: 20px;
 }
 
 #buy{
@@ -66,6 +75,10 @@ code {
     display: flex;
     flex-direction: column;
   }
+  .opener{
+    width: 100%;
+  }
+
   #buy{
     display: grid;
     grid-template-columns: 1fr;
