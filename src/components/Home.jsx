@@ -3,6 +3,9 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import GIF from "./images/Algebra_logo.gif";
+import { Widget } from '@typeform/embed-react'
+
+
 
 
 
@@ -23,7 +26,7 @@ function Home() {
     {
       loading ? (
         <div style={{textAlign: "center"}}>
-      <img src={GIF} loading={loading} style={{height: "100vh", margin: "auto"}} />
+      <img src={GIF} loading={loading} class="opener" />
       </div>
 
       ) : (
@@ -34,8 +37,7 @@ function Home() {
       FAT
       <br></br>
       <br></br>
-      <br></br>
-      <br></br>
+      <Widget id="w7tbJoxg" style={{ width: '100%', height: "100vh" }} className="my-form" />
       <br></br>
       <br></br>
       <br></br>
