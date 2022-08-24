@@ -78,6 +78,10 @@ code {
   .opener{
     width: 100%;
   }
+  
+  .block {
+    width:100%;
+  }
 
   #buy{
     display: grid;
