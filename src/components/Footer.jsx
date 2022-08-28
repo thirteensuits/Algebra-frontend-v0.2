@@ -9,10 +9,6 @@ function Footer() {
             <a href="https://twitter.com/algebra_ltd" target="_blank" rel="noreferrer">
             Twitter
             </a>
-            &nbsp;|&nbsp;
-            <a href="https://www.themala.xyz" target="_blank" rel="noreferrer">
-            TheMala Demo
-            </a>
           <br></br>
             Copyright &copy; Algebra 2022
           </p>
