@@ -21,6 +21,16 @@ code {
   height: 100vh;
 }
 
+.top{
+  padding-top: 50px;
+}
+
+.borders{
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
 .stuff {
   display: flex;
  text-align: center;
@@ -29,6 +39,11 @@ code {
 .block {
   width: 250px;
   height: 20px;
+}
+
+#demo{
+  background-color: crimson;
+  text-emphasis-color: white;
 }
 
 #buy{
