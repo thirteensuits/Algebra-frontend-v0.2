@@ -25,7 +25,10 @@ function Navigation() {
               <Link className="nav-link" to='/#thesis'>Thesis</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to='/'>Demo</Link>
+              <Link className="nav-link" to='/#contact'>Contact</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to='/#demo'>Demo</Link>
             </li>
             <li className="block">
               <Provider store={store4}>
